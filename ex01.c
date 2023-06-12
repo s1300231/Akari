@@ -4,9 +4,9 @@
   int main(){
     int i,num,heads=0,tails=0;
     char str[8];
-    printf("誰ですか？");
+    printf("Who are you?");
     scanf("%s",str);
-    printf("こんにちは、%s\n",str);
+    printf("Hello,%s\n",str);
 
     printf("Tossing a coin...\n");
     for(i=0;i<3;i++){
