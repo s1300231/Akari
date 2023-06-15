@@ -6,7 +6,12 @@
 int main(){
   int i,num;
   int D[2]={0,0};
-   srand((unsigned int)time(NULL));  
+  char str[10];
+   srand((unsigned int)time(NULL));
+
+   printf("What is your name?\n");
+   scanf("%s",str);
+   printf("Hello, %s!\n",str);
 
   printf("Rolling dice...\n");
   for(i=0;i<2;i++){
