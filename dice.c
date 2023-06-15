@@ -21,7 +21,7 @@ int main(){
     printf("Die %d: %d\n",i+1,D[i]);
   }
   printf("Total value: %d\n",D[0]+D[1]);
-  if(D[0]+D[1]>=7) printf("You won.\n");
-  else printf("You lose.\n");
+  if(D[0]+D[1]>=7) printf("%s won.\n",str);
+  else printf("%s lose.\n",str);
   return 0;
 }
